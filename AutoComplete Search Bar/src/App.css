@@ -1,0 +1,22 @@
+.search-input {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+.results-container {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.result {
+    display: block;
+    padding: 5px;
+}
+.result:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
